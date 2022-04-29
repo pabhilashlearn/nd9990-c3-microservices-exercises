@@ -18,7 +18,7 @@ script:
   - docker build -t udagram-api-feed ./udagram-api-feed # build feed
   - docker build -t udagram-api-user ./udagram-api-user # build user
   - docker build -t udagram-frontend ./udagram-frontend # build frontend
-  - docker build -t reverseproxy ./reverseproxy # build reverseproxy
+  - docker build -t udagram-reverseproxy ./udagram-reverseproxy # build reverseproxy
   - docker tag udagram-api-feed pabhilashlearn/udagram-api-feed:v1 # tag feed
   - docker tag udagram-api-user pabhilashlearn/udagram-api-user:v1 # tag user
   - docker tag udagram-frontend pabhilashlearn/udagram-frontend:v1 # tag frontend
