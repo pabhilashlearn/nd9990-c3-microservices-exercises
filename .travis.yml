@@ -31,4 +31,4 @@ after_success:
   - docker push pabhilashlearn/udagram-api-feed:v1
   - docker push pabhilashlearn/udagram-api-user:v1
   - docker push pabhilashlearn/udagram-frontend:v1
-  - docker push pabhilashlearn/reverseproxy:v1 
+  - docker push pabhilashlearn/udagram-reverseproxy:v1
