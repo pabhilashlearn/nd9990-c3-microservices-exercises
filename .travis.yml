@@ -22,7 +22,7 @@ script:
   - docker tag udagram-api-feed pabhilashlearn/udagram-api-feed:v1 # tag feed
   - docker tag udagram-api-user pabhilashlearn/udagram-api-user:v1 # tag user
   - docker tag udagram-frontend pabhilashlearn/udagram-frontend:v1 # tag frontend
-  - docker tag reverseproxy pabhilashlearn/reverseproxy:v1 # tag feed
+  - docker tag udagram-reverseproxy pabhilashlearn/udagram-reverseproxy:v1 # tag feed
 
 after_success:
   # Push
